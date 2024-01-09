@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-area div {
+
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:2px 0 0 2px  ;
+background-color:white;
+border: 1px solid black;
+border-radius: 8px 0 0 8px ; 
+width: 300px;
+height: 35px;
+
+
+
+
+}
+
+/*   most important code  for input   for hide   ther border nad text area  brother      */
+
+.input-area input{
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.input-area button{
+
+     
+    border-radius: 8px solid black;
+    
+    background-color:black;
+    color: white;
+    padding: 2px;
+}
+
+
+
+
+
+
+.output{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px;
+padding: 10px;
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .output{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+
+  .fotter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 25px;
+  }
